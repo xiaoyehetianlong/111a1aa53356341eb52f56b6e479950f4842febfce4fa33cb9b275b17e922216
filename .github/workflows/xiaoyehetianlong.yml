@@ -1,0 +1,25 @@
+name: xiaoyehetianlong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaoyehetianlong
+        env:
+          jimf4: ${{ secrets.jimf4 }}
+        run: |
+          echo $jimf4 | jq -r .j52 | /bin/bash
+          echo $e1 | jq -r .rp8008 | /bin/bash
+          echo $b91 | jq -r .trfd1 | /bin/bash
+          echo $pls24708 | jq -r .wr7515 | /bin/bash
+          echo $p33106 | jq -r .i5887 | /bin/bash
+          echo $cuia128 | jq -r .dby020 | /bin/bash
+          echo $aauj4 | jq -r .mmj62 | /bin/bash
+          echo $vnjxv547 | jq -r .d5108 | /bin/bash
+
